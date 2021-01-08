@@ -15,12 +15,4 @@ public class class2 {
     public void print2() {
         System.out.println("class2");
     }
-
-    public static void main(String[] args) {
-        class2 obj2 = new class2();
-        obj2.print2();
-        obj2.includeClass1();
-        obj2.obj1.print1();
-        obj2.includeClass1();
-    }
 }

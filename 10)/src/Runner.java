@@ -7,6 +7,6 @@ constructors.
 */
 public class Runner {
     public static void main(String[] args) {
-        Stem obj = new Stem();
+        Stem obj = new Stem(3);
     }
 }

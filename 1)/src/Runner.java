@@ -4,10 +4,10 @@ of the first class. Use lazy initialization to instantiate this object.
  */
 public class Runner {
     public static void main(String[] args) {
-        class2 obj2 = new class2();
+        ContainPrintClass obj2 = new ContainPrintClass();
         obj2.print2();
-        obj2.includeClass1();
-        obj2.obj1.print1();
-        obj2.includeClass1();
+        obj2.includePrintClass();
+        obj2.usePrintClass().print1();
+        obj2.includePrintClass();
     }
 }

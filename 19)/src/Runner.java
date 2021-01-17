@@ -3,6 +3,9 @@
 initialization of the blank final inside all constructors. Demonstrate the guarantee that the
 final must be initialized before use, and that it cannot be changed once initialized.
  */
+
+import com.gromovlearn.A;
+
 public class Runner {
     private final A ref;
     public Runner() {

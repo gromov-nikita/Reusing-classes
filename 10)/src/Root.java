@@ -6,9 +6,9 @@ Exercise 10: (1) Modify the previous exercise so that each class only has non-de
 constructors.
 */
 public class Root {
-    public Component1 obj1 = new Component1();
-    public Component2 obj2 = new Component2();
-    public Component3 obj3 = new Component3();
+    public Component1 obj1 = new Component1(1);
+    public Component2 obj2 = new Component2(1);
+    public Component3 obj3 = new Component3(1);
     public Root(int n){
         System.out.println("Root ");
     }

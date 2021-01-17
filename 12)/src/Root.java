@@ -1,7 +1,7 @@
 public class Root {
-    public Component1 obj1 = new Component1();
-    public Component2 obj2 = new Component2();
-    public Component3 obj3 = new Component3();
+    private Component1 obj1 = new Component1();
+    private Component2 obj2 = new Component2();
+    private Component3 obj3 = new Component3();
     public Root() {
         System.out.println("Root");
     }

@@ -1,7 +1,7 @@
 public class Stem extends Root {
-    public Component1 obj1Stem = new Component1();
-    public Component2 obj2Stem = new Component2();
-    public Component3 obj3Stem = new Component3();
+    private Component1 obj1Stem = new Component1();
+    private Component2 obj2Stem = new Component2();
+    private Component3 obj3Stem = new Component3();
     public Stem() {
         System.out.println("Stem");
     }

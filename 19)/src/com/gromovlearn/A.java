@@ -1,3 +1,5 @@
+package com.gromovlearn;
+
 public class A {
     private int a;
 
